@@ -1,34 +1,26 @@
 {
-  "name": "cordova-plugin-wkwebview-inject-cookie",
+  "name": "@zalaris/cordova-plugin-wkwebview-inject-cookie",
+  "version": "1.1.0",
   "description": "Sync cookies between WKWebView & Document",
-  "version": "1.0.9",
-  "author": "Christian-W. Budde <CWBudde@pcjv.de>",
-  "bugs": {
-    "url": "https://github.com/raccoondev85/cordova-plugin-wkwebview-inject-cookie/issues"
-  },
   "cordova": {
-    "id": "cordova-plugin-wkwebview-inject-cookie",
+    "id": "@zalaris/cordova-plugin-wkwebview-inject-cookie",
     "platforms": [
       "ios"
     ]
   },
-  "homepage": "https://github.com/raccoondev85/cordova-plugin-wkwebview-inject-cookie#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zalaris/cordova-plugin-wkwebview-inject-cookie"
+  },
   "keywords": [
     "cookies",
     "cordova",
     "ecosystem:cordova",
-    "first",
-    "get",
-    "init",
-    "install",
     "plugin",
     "sync",
     "wkwebview"
   ],
+  "author": "Zalaris ASA",
   "license": "Apache-2.0",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/raccoondev85/cordova-plugin-wkwebview-inject-cookie.git"
-  }
+  "main": "index.js"
 }

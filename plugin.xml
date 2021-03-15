@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-wkwebview-inject-cookie" version="1.0.9" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="@zalaris/cordova-plugin-wkwebview-inject-cookie" version="1.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
   <name>WKWebViewInjectCookie</name>
 	<description>An alternative way to sync cookies for a wkWebView browser</description>	
   <license>Apache 2.0</license>
-	<keywords>cordova,wkwebview,cookies,first</keywords>
+	<keywords>cordova,wkwebview,cookies</keywords>
   <engines>
     <engine name="cordova" version=">=6.0.0" />
     <engine name="cordova-ios" version=">=4.0.0" />
@@ -14,7 +14,7 @@
         <param name="ios-package" value="WKWebViewInjectCookie" />
       </feature>
     </config-file>
-		<repo>https://github.com/raccoondev85/cordova-plugin-wkwebview-inject-cookie.git</repo>
+		<repo>https://github.com/zalaris/cordova-plugin-wkwebview-inject-cookie.git</repo>
     <js-module src="www/cookiesync.js" name="cookiesync">
       <clobbers target="wkWebView" />
     </js-module>
