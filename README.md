@@ -1,4 +1,4 @@
-# cordova-plugin-wkwebview-cookie-sync
+# cordova-plugin-wkwebview-inject-cookie
 
 
 ### Preface
@@ -6,7 +6,7 @@
 
 
 ### About
-> This plugin returns the cookies from wkwebview for a specific url so the cookies can be used (e.g. to get the cookies from cordova-plugin-inappbrowser and pass it to cordova-plugin-advanced-http). The plugin also allows to set cookies to wkwebview.
+> The plugin returns cookies from WKWebView for specific url so the cookies can be used (e.g. to get cookies from cordova-plugin-inappbrowser and pass them to cordova-plugin-advanced-http). The plugin also allows to set cookies to WKWebView.
 
 
 ### Install
@@ -31,4 +31,4 @@ wkWebView.getCookies(url, successCallback, errorCallback)
 ```
 
 ## Limitations
-> It doen't work with the UIWebView on iOS (It's deprecated by Apple).
+> The plugin does not work with old UIWebView on iOS (It has been deprecated by Apple).
